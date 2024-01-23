@@ -1,0 +1,10 @@
+﻿Nội dung:
+1. Tạo app home phía frontend hiển thị các giá trị: Nhiệt độ đường ống, nhiệt độ phòng, giá trị đặt: Nhiệt độ phòng
+2. Tạo app chiller: 
+	chiller.views: đọc dữ liệu từ PLC sử dụng thư viện pyprofibus
+	chiller.models: Tạo bảng bao gồm Chiller_name, parameter(temperature, humidity)
+3. Tạo app optimizer:
+	optimizer.models: chạy thuật toán 2 lớp GEN và PSO
+	optimizer.views: gửi các giá trị tối ưu đến frontend
+4. urls.py :
+	Hiển thị lên interface.

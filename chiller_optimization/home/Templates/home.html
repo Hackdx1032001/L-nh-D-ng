@@ -1,0 +1,26 @@
+﻿<h1>Nhiệt độ chiller</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nhiệt độ</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for chiller in chiller_data %}
+        <tr>
+            <td>{{ chiller.id }}</td>
+            <td>{{ chiller.temperature }}</td>
+            <td>{{ chiller.status }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<form action="/chiller/set-temperature" method="post">
+    <label for="temperature">Nhiệt độ đặt</label>
+    <input type="number" name="temperature" id="temperature">
+    <input type="submit" value="Cập nhật">
+</form>

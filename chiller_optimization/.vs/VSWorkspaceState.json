@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\chiller_optimization",
+    "\\gen_pso",
+    "\\gen_pso\\gen",
+    "\\gen_pso\\migrations",
+    "\\gen_pso\\pso",
+    "\\home",
+    "\\home\\migrations",
+    "\\home\\Templates",
+    "\\parameter"
+  ],
+  "PreviewInSolutionExplorer": false
+}
